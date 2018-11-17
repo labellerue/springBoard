@@ -109,6 +109,15 @@ public class PostController {
 		return "post/detailPost";
 	}
 	
+	/**
+	* Method : getComm
+	* 작성자 : Bella
+	* 변경이력 :
+	* @param model
+	* @param post_id
+	* @return
+	* Method 설명 : 댓글목록 ajax 처리
+	*/
 	@GetMapping(value="/getComm")
 	public String getComm(Model model, String post_id) {
 		//logger.debug("post_id 왔나 {}", post_id);
