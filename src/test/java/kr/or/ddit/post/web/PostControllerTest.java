@@ -33,6 +33,7 @@ public class PostControllerTest extends ControllerTestConfig {
 		/***Then***/
 		//assertEquals("post/detailPost", viewName);
 	}
+
 	
 	
 
